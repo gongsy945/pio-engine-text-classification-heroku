@@ -1,4 +1,4 @@
-name := "pio-engine-heroku"
+name := "pio-engine-text-classification"
 
 parallelExecution in Test := false
 
