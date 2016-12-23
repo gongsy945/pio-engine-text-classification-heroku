@@ -1,13 +1,13 @@
-package org.template.textclassification
+
 
 import io.prediction.controller.{EmptyParams, EngineParams}
 import io.prediction.data.storage.EngineInstance
 import io.prediction.workflow.CreateWorkflow.WorkflowConfig
 import io.prediction.workflow._
 import org.joda.time.DateTime
-import org.template.textclassification.{LRAlgorithmParams, PreparatorParams}
+//import {LRAlgorithmParams, PreparatorParams}
 //import io.prediction.controller.WorkflowParams
-import org.template.textclassification.DataSourceParams
+//import DataSourceParams
 import breeze.linalg.rank
 
 object TrainApp extends App {
@@ -20,7 +20,7 @@ object TrainApp extends App {
   // WTF: envs must not be empty or CreateServer.engineInstances.get... fails due to JDBCUtils.stringToMap
   val sparkConf = Map("spark.executor.extraClassPath" -> ".")
 
-  val engineFactoryName = "org.template.textclassification.TextClassificationEngine"
+  val engineFactoryName = "TextClassificationEngine"
 
 
   val workflowConfig = WorkflowConfig(

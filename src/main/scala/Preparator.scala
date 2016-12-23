@@ -1,4 +1,4 @@
-package org.template.textclassification
+
 
 import io.prediction.controller.PPreparator
 import io.prediction.controller.Params

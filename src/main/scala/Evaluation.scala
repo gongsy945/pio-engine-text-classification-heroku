@@ -1,4 +1,4 @@
-package org.template.textclassification
+
 
 import io.prediction.controller.AverageMetric
 import io.prediction.controller.Evaluation

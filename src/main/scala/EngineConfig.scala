@@ -1,4 +1,4 @@
-package org.template.textclassification
+
 
 object EngineConfig {
 

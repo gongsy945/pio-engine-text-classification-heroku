@@ -1,4 +1,4 @@
-package org.template.textclassification
+
 
 import io.prediction.controller.PDataSource
 import io.prediction.controller.EmptyEvaluationInfo
