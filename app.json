@@ -1,5 +1,5 @@
 {
-  "name": "pio-engine-heroku",
+  "name": "pio-engine-text-classification",
   "description": "Heroku compatible PredictionIO Engine",
   "keywords": [
     "machinelearning",
@@ -18,6 +18,9 @@
     },
     "EVENT_SERVER_PORT": {
       "description": "PredictionIO Event Server Port"
+    },
+    "DATABASE_URL":{
+      "description": "PredictionIO Event Server PostgresSQL URL"
     },
     "JAVA_OPTS": {
       "value": "-Xss4m"

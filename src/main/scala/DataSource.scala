@@ -40,7 +40,7 @@ class DataSource (
     PEventStore.find(
       appName = dsp.appName,
       entityType = Some("content"), // specify data entity type
-      eventNames = Some(List("e-mail")) // specify data event name
+      eventNames = Some(List("cylinder")) // specify data event name
 
       // Convert collected RDD of events to and RDD of Observation
       // objects.
