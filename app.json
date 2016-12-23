@@ -19,9 +19,6 @@
     "EVENT_SERVER_PORT": {
       "description": "PredictionIO Event Server Port"
     },
-    "DATABASE_URL":{
-      "description": "PredictionIO Event Server PostgresSQL URL"
-    },
     "JAVA_OPTS": {
       "value": "-Xss4m"
     }
