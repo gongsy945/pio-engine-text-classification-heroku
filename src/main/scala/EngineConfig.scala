@@ -1,3 +1,5 @@
+package org.template.textclassification
+
 object EngineConfig {
 
   val engineId = sys.env.getOrElse("ENGINE_ID", "default")

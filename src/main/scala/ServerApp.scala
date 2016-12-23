@@ -1,3 +1,5 @@
+package org.template.textclassification
+
 import akka.actor.ActorSystem
 import akka.io.IO
 import io.prediction.controller.Engine
