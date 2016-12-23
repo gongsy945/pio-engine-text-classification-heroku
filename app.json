@@ -1,5 +1,5 @@
 {
-  "name": "pio-engine-heroku",
+  "name": "pio-engine-text-classification",
   "description": "Heroku compatible PredictionIO Engine",
   "keywords": [
     "machinelearning",
